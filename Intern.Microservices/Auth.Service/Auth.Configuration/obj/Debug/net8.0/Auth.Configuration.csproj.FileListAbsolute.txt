@@ -1,0 +1,12 @@
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Configuration\bin\Debug\net8.0\Auth.Configuration.deps.json
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Configuration\bin\Debug\net8.0\Auth.Configuration.dll
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Configuration\bin\Debug\net8.0\Auth.Configuration.pdb
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Configuration\obj\Debug\net8.0\Auth.Configuration.csproj.AssemblyReference.cache
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Configuration\obj\Debug\net8.0\Auth.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Configuration\obj\Debug\net8.0\Auth.Configuration.AssemblyInfoInputs.cache
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Configuration\obj\Debug\net8.0\Auth.Configuration.AssemblyInfo.cs
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Configuration\obj\Debug\net8.0\Auth.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Configuration\obj\Debug\net8.0\Auth.Configuration.dll
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Configuration\obj\Debug\net8.0\refint\Auth.Configuration.dll
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Configuration\obj\Debug\net8.0\Auth.Configuration.pdb
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Configuration\obj\Debug\net8.0\ref\Auth.Configuration.dll

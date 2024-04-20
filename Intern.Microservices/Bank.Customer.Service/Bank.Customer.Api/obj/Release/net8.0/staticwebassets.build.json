@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "R/NqUEUXUfsOsAE2hBMZblShRrNMWoLxcRwdHkGUkMI=",
+  "Source": "Bank.Customer.Api",
+  "BasePath": "_content/Bank.Customer.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

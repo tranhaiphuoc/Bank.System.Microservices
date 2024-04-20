@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VigIM2SgrFDGDR3HRy5PsU2KNDC7OG0noMsbht12oEI=",
+  "Source": "Bank.Transaction.Api",
+  "BasePath": "_content/Bank.Transaction.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

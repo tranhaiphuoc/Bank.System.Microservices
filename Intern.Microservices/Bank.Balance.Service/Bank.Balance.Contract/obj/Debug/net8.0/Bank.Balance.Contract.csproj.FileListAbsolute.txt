@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Contract\bin\Debug\net8.0\Bank.Balance.Contract.deps.json
+C:\Users\ASUS\Desktop\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Contract\bin\Debug\net8.0\Bank.Balance.Contract.dll
+C:\Users\ASUS\Desktop\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Contract\bin\Debug\net8.0\Bank.Balance.Contract.pdb
+C:\Users\ASUS\Desktop\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Contract\obj\Debug\net8.0\Bank.Balance.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Contract\obj\Debug\net8.0\Bank.Balance.Contract.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Contract\obj\Debug\net8.0\Bank.Balance.Contract.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Contract\obj\Debug\net8.0\Bank.Balance.Contract.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Contract\obj\Debug\net8.0\Bank.Balance.Contract.dll
+C:\Users\ASUS\Desktop\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Contract\obj\Debug\net8.0\refint\Bank.Balance.Contract.dll
+C:\Users\ASUS\Desktop\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Contract\obj\Debug\net8.0\Bank.Balance.Contract.pdb
+C:\Users\ASUS\Desktop\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Contract\obj\Debug\net8.0\ref\Bank.Balance.Contract.dll

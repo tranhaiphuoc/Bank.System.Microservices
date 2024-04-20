@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bank.Transaction.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Bank.Transaction.Api.Controllers.V1.TransactionsController">
+            <summary>
+            </summary>
+            <response code="500">An error has occured</response>
+        </member>
+        <member name="M:Bank.Transaction.Api.Controllers.V1.TransactionsController.#ctor(Mediator.ISender)">
+            <summary>
+            </summary>
+            <response code="500">An error has occured</response>
+        </member>
+        <member name="M:Bank.Transaction.Api.Controllers.V1.TransactionsController.GetApprovedTransaction">
+            <summary>
+            Get a list of approved transactions
+            </summary>
+            <returns>A list of approved transactions</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Transactions/Approved
+                
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+            </remarks>
+            <response code="200">Either if the list has any or not</response>
+        </member>
+        <member name="M:Bank.Transaction.Api.Controllers.V1.TransactionsController.GetUnapprovedTransaction">
+            <summary>
+            Get a list of unapproved transactions
+            </summary>
+            <returns>A list of unapproved transactions</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Transactions/Unapproved
+                
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+            </remarks>
+            <response code="200">Either if the list has any or not</response>
+        </member>
+        <member name="M:Bank.Transaction.Api.Controllers.V1.TransactionsController.DepositApproval(Bank.Transaction.Api.Requests.ApprovalRequest)">
+            <summary>
+            Approved a deposit transaction
+            </summary>
+            <returns>Error code for the act of appoving a transaction</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Transactions/Approval
+                
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+                
+                Body:
+                {
+                    "transactionId": "00000000-0000-0000-0000-000000000001",
+                    "status": 1,
+                    "approvedBy": "000000000001"
+                }
+            </remarks>
+            <response code="200">Success approving the transaction</response>
+            <response code="404">No transaction was found</response>
+        </member>
+        <member name="M:Bank.Transaction.Api.Controllers.V1.TransactionsController.BuyPaymentApproval(Bank.Transaction.Api.Requests.ApprovalRequest)">
+            <summary>
+            Approved a buy payment transaction
+            </summary>
+            <returns>Error code for the act of appoving a transaction</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Transactions/Approval
+                
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+                
+                Body:
+                {
+                    "transactionId": "00000000-0000-0000-0000-000000000001",
+                    "status": 1,
+                    "approvedBy": "000000000001"
+                }
+            </remarks>
+            <response code="200">Success approving the transaction</response>
+            <response code="404">No transaction was found</response>
+        </member>
+        <member name="M:Bank.Transaction.Api.Controllers.V1.TransactionsController.SellPaymentApproval(Bank.Transaction.Api.Requests.ApprovalRequest)">
+            <summary>
+            Approved a sell payment transaction
+            </summary>
+            <returns>Error code for the act of appoving a transaction</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Transactions/Approval/Sell
+                
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+                
+                Body:
+                {
+                    "transactionId": "00000000-0000-0000-0000-000000000001",
+                    "status": 1,
+                    "approvedBy": "000000000001"
+                }
+            </remarks>
+            <response code="200">Success approving the transaction</response>
+            <response code="404">No transaction was found</response>
+        </member>
+    </members>
+</doc>

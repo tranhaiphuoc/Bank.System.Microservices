@@ -1,0 +1,11 @@
+E:\Project\Intern.Microservices\Bank.Transaction.Service\Bank.Transaction.Domain\bin\Release\net8.0\Bank.Transaction.Domain.deps.json
+E:\Project\Intern.Microservices\Bank.Transaction.Service\Bank.Transaction.Domain\bin\Release\net8.0\Bank.Transaction.Domain.dll
+E:\Project\Intern.Microservices\Bank.Transaction.Service\Bank.Transaction.Domain\bin\Release\net8.0\Bank.Transaction.Domain.pdb
+E:\Project\Intern.Microservices\Bank.Transaction.Service\Bank.Transaction.Domain\obj\Release\net8.0\Bank.Transaction.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\Intern.Microservices\Bank.Transaction.Service\Bank.Transaction.Domain\obj\Release\net8.0\Bank.Transaction.Domain.AssemblyInfoInputs.cache
+E:\Project\Intern.Microservices\Bank.Transaction.Service\Bank.Transaction.Domain\obj\Release\net8.0\Bank.Transaction.Domain.AssemblyInfo.cs
+E:\Project\Intern.Microservices\Bank.Transaction.Service\Bank.Transaction.Domain\obj\Release\net8.0\Bank.Transaction.Domain.csproj.CoreCompileInputs.cache
+E:\Project\Intern.Microservices\Bank.Transaction.Service\Bank.Transaction.Domain\obj\Release\net8.0\Bank.Transaction.Domain.dll
+E:\Project\Intern.Microservices\Bank.Transaction.Service\Bank.Transaction.Domain\obj\Release\net8.0\refint\Bank.Transaction.Domain.dll
+E:\Project\Intern.Microservices\Bank.Transaction.Service\Bank.Transaction.Domain\obj\Release\net8.0\Bank.Transaction.Domain.pdb
+E:\Project\Intern.Microservices\Bank.Transaction.Service\Bank.Transaction.Domain\obj\Release\net8.0\ref\Bank.Transaction.Domain.dll

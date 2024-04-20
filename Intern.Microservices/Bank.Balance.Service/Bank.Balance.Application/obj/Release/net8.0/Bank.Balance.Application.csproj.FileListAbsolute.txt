@@ -1,0 +1,17 @@
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\bin\Release\net8.0\Bank.Balance.Application.deps.json
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\bin\Release\net8.0\Bank.Balance.Application.dll
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\bin\Release\net8.0\Bank.Balance.Application.pdb
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\bin\Release\net8.0\Bank.Balance.Contract.dll
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\bin\Release\net8.0\Bank.Balance.Domain.dll
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\bin\Release\net8.0\Bank.Balance.Contract.pdb
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\bin\Release\net8.0\Bank.Balance.Domain.pdb
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\obj\Release\net8.0\Bank.Balance.Application.csproj.AssemblyReference.cache
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\obj\Release\net8.0\Bank.Balance.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\obj\Release\net8.0\Bank.Balance.Application.AssemblyInfoInputs.cache
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\obj\Release\net8.0\Bank.Balance.Application.AssemblyInfo.cs
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\obj\Release\net8.0\Bank.Balance.Application.csproj.CoreCompileInputs.cache
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\obj\Release\net8.0\Bank.Balance.Application.csproj.CopyComplete
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\obj\Release\net8.0\Bank.Balance.Application.dll
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\obj\Release\net8.0\refint\Bank.Balance.Application.dll
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\obj\Release\net8.0\Bank.Balance.Application.pdb
+E:\Project\Intern.Microservices\Bank.Balance.Service\Bank.Balance.Application\obj\Release\net8.0\ref\Bank.Balance.Application.dll

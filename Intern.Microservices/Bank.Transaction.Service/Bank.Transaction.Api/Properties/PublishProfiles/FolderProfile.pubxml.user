@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\phuocth18\Desktop\Deployment\Intern.Microservices\Bank.Transaction.Service</_PublishTargetUrl>
+    <History>True|2024-03-06T02:56:49.9848777Z;True|2024-02-22T09:23:30.2070606+07:00;True|2024-02-21T16:00:41.6330873+07:00;True|2024-02-21T14:45:30.7149543+07:00;True|2024-02-21T14:38:57.2212751+07:00;True|2024-02-21T08:46:43.1298223+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

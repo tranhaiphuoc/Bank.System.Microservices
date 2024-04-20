@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Application\\Bank.Transaction.Application.csproj": {}
+  },
+  "projects": {
+    "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Application\\Bank.Transaction.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Application\\Bank.Transaction.Application.csproj",
+        "projectName": "Bank.Transaction.Application",
+        "projectPath": "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Application\\Bank.Transaction.Application.csproj",
+        "packagesPath": "C:\\Users\\phuocth18\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phuocth18\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\phuocth18\\Desktop\\Restaurant.Project\\packages": {},
+          "E:\\Project\\Intern.Microservices.Orchestration\\packages": {},
+          "E:\\Project\\Intern.Microservices\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Contract\\Bank.Transaction.Contract.csproj": {
+                "projectPath": "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Contract\\Bank.Transaction.Contract.csproj"
+              },
+              "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Domain\\Bank.Transaction.Domain.csproj": {
+                "projectPath": "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Domain\\Bank.Transaction.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Mediator.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "Mediator.SourceGenerator": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Contract\\Bank.Transaction.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Contract\\Bank.Transaction.Contract.csproj",
+        "projectName": "Bank.Transaction.Contract",
+        "projectPath": "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Contract\\Bank.Transaction.Contract.csproj",
+        "packagesPath": "C:\\Users\\phuocth18\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phuocth18\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\phuocth18\\Desktop\\Restaurant.Project\\packages": {},
+          "E:\\Project\\Intern.Microservices.Orchestration\\packages": {},
+          "E:\\Project\\Intern.Microservices\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Domain\\Bank.Transaction.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Domain\\Bank.Transaction.Domain.csproj",
+        "projectName": "Bank.Transaction.Domain",
+        "projectPath": "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Domain\\Bank.Transaction.Domain.csproj",
+        "packagesPath": "C:\\Users\\phuocth18\\.nuget\\packages\\",
+        "outputPath": "E:\\Project\\Intern.Microservices\\Bank.Transaction.Service\\Bank.Transaction.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\phuocth18\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\phuocth18\\Desktop\\Restaurant.Project\\packages": {},
+          "E:\\Project\\Intern.Microservices.Orchestration\\packages": {},
+          "E:\\Project\\Intern.Microservices\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

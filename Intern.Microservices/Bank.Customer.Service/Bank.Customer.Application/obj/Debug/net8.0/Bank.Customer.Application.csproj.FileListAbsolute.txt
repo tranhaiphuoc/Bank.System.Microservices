@@ -1,0 +1,17 @@
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\bin\Debug\net8.0\Bank.Customer.Application.deps.json
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\bin\Debug\net8.0\Bank.Customer.Application.dll
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\bin\Debug\net8.0\Bank.Customer.Application.pdb
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\bin\Debug\net8.0\Bank.Customer.Domain.dll
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\bin\Debug\net8.0\Bank.Customer.Domain.pdb
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\obj\Debug\net8.0\Bank.Customer.Application.csproj.AssemblyReference.cache
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\obj\Debug\net8.0\Bank.Customer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\obj\Debug\net8.0\Bank.Customer.Application.AssemblyInfoInputs.cache
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\obj\Debug\net8.0\Bank.Customer.Application.AssemblyInfo.cs
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\obj\Debug\net8.0\Bank.Customer.Application.csproj.CoreCompileInputs.cache
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\obj\Debug\net8.0\Bank.Customer.Application.csproj.CopyComplete
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\obj\Debug\net8.0\Bank.Customer.Application.dll
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\obj\Debug\net8.0\refint\Bank.Customer.Application.dll
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\obj\Debug\net8.0\Bank.Customer.Application.pdb
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\obj\Debug\net8.0\ref\Bank.Customer.Application.dll
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\bin\Debug\net8.0\Bank.Customer.Contract.dll
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Application\bin\Debug\net8.0\Bank.Customer.Contract.pdb

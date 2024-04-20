@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Infrastructure\\Bank.Balance.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Application\\Bank.Balance.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Application\\Bank.Balance.Application.csproj",
+        "projectName": "Bank.Balance.Application",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Application\\Bank.Balance.Application.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ASUS\\Desktop\\Restaurant.Project\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Contract\\Bank.Balance.Contract.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Contract\\Bank.Balance.Contract.csproj"
+              },
+              "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Domain\\Bank.Balance.Domain.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Domain\\Bank.Balance.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Mediator.Abstractions": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "Mediator.SourceGenerator": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Contract\\Bank.Balance.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Contract\\Bank.Balance.Contract.csproj",
+        "projectName": "Bank.Balance.Contract",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Contract\\Bank.Balance.Contract.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ASUS\\Desktop\\Restaurant.Project\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Domain\\Bank.Balance.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Domain\\Bank.Balance.Domain.csproj",
+        "projectName": "Bank.Balance.Domain",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Domain\\Bank.Balance.Domain.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ASUS\\Desktop\\Restaurant.Project\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Infrastructure\\Bank.Balance.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Infrastructure\\Bank.Balance.Infrastructure.csproj",
+        "projectName": "Bank.Balance.Infrastructure",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Infrastructure\\Bank.Balance.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\ASUS\\Desktop\\Restaurant.Project\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Application\\Bank.Balance.Application.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\Intern.Microservices\\Bank.Balance.Service\\Bank.Balance.Application\\Bank.Balance.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Bank.Customer.Contract": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Bank.Transaction.Contract": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.28, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Bank.Customer.Contract/1.0.0": {
+        "runtime": {
+          "Bank.Customer.Contract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bank.Customer.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\bin\Debug\net8.0\Auth.Application.deps.json
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\bin\Debug\net8.0\Auth.Application.dll
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\bin\Debug\net8.0\Auth.Application.pdb
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\bin\Debug\net8.0\Auth.Configuration.dll
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\bin\Debug\net8.0\Auth.Domain.dll
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\bin\Debug\net8.0\Auth.Domain.pdb
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\bin\Debug\net8.0\Auth.Configuration.pdb
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\obj\Debug\net8.0\Auth.Application.csproj.AssemblyReference.cache
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\obj\Debug\net8.0\Auth.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\obj\Debug\net8.0\Auth.Application.AssemblyInfoInputs.cache
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\obj\Debug\net8.0\Auth.Application.AssemblyInfo.cs
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\obj\Debug\net8.0\Auth.Application.csproj.CoreCompileInputs.cache
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\obj\Debug\net8.0\Auth.Application.csproj.CopyComplete
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\obj\Debug\net8.0\Auth.Application.dll
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\obj\Debug\net8.0\refint\Auth.Application.dll
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\obj\Debug\net8.0\Auth.Application.pdb
+C:\Users\phuocth18\Desktop\Auth.Service\Auth.Application\obj\Debug\net8.0\ref\Auth.Application.dll

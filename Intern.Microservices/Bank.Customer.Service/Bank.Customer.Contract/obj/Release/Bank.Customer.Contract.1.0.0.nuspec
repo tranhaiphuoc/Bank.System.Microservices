@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Bank.Customer.Contract</id>
+    <version>1.0.0</version>
+    <authors>Bank.Customer.Contract</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Contract\bin\Release\net8.0\Bank.Customer.Contract.dll" target="lib\net8.0\Bank.Customer.Contract.dll" />
+  </files>
+</package>

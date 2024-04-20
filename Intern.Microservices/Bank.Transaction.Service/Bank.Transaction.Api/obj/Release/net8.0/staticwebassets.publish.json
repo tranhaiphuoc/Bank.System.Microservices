@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Na8aUQzU/ZeXLHyX82d3bghUmc+9aWhTjwdqdZU89wo=",
+  "Source": "Bank.Transaction.Api",
+  "BasePath": "_content/Bank.Transaction.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

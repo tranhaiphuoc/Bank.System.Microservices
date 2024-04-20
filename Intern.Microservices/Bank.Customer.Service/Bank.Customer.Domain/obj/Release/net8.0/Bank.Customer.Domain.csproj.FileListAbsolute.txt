@@ -1,0 +1,11 @@
+E:\Project\Intern.Microservices\Bank.Customer.Service\Bank.Customer.Domain\bin\Release\net8.0\Bank.Customer.Domain.deps.json
+E:\Project\Intern.Microservices\Bank.Customer.Service\Bank.Customer.Domain\bin\Release\net8.0\Bank.Customer.Domain.dll
+E:\Project\Intern.Microservices\Bank.Customer.Service\Bank.Customer.Domain\bin\Release\net8.0\Bank.Customer.Domain.pdb
+E:\Project\Intern.Microservices\Bank.Customer.Service\Bank.Customer.Domain\obj\Release\net8.0\Bank.Customer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\Intern.Microservices\Bank.Customer.Service\Bank.Customer.Domain\obj\Release\net8.0\Bank.Customer.Domain.AssemblyInfoInputs.cache
+E:\Project\Intern.Microservices\Bank.Customer.Service\Bank.Customer.Domain\obj\Release\net8.0\Bank.Customer.Domain.AssemblyInfo.cs
+E:\Project\Intern.Microservices\Bank.Customer.Service\Bank.Customer.Domain\obj\Release\net8.0\Bank.Customer.Domain.csproj.CoreCompileInputs.cache
+E:\Project\Intern.Microservices\Bank.Customer.Service\Bank.Customer.Domain\obj\Release\net8.0\Bank.Customer.Domain.dll
+E:\Project\Intern.Microservices\Bank.Customer.Service\Bank.Customer.Domain\obj\Release\net8.0\refint\Bank.Customer.Domain.dll
+E:\Project\Intern.Microservices\Bank.Customer.Service\Bank.Customer.Domain\obj\Release\net8.0\Bank.Customer.Domain.pdb
+E:\Project\Intern.Microservices\Bank.Customer.Service\Bank.Customer.Domain\obj\Release\net8.0\ref\Bank.Customer.Domain.dll

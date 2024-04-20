@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Bank.Balance.Domain/1.0.0": {
+        "runtime": {
+          "Bank.Balance.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bank.Balance.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

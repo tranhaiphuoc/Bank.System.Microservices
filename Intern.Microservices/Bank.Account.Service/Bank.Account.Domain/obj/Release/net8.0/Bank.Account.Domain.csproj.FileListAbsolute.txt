@@ -1,0 +1,11 @@
+E:\Project\Intern.Microservices\Bank.Account.Service\Bank.Account.Domain\bin\Release\net8.0\Bank.Account.Domain.deps.json
+E:\Project\Intern.Microservices\Bank.Account.Service\Bank.Account.Domain\bin\Release\net8.0\Bank.Account.Domain.dll
+E:\Project\Intern.Microservices\Bank.Account.Service\Bank.Account.Domain\bin\Release\net8.0\Bank.Account.Domain.pdb
+E:\Project\Intern.Microservices\Bank.Account.Service\Bank.Account.Domain\obj\Release\net8.0\Bank.Account.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\Intern.Microservices\Bank.Account.Service\Bank.Account.Domain\obj\Release\net8.0\Bank.Account.Domain.AssemblyInfoInputs.cache
+E:\Project\Intern.Microservices\Bank.Account.Service\Bank.Account.Domain\obj\Release\net8.0\Bank.Account.Domain.AssemblyInfo.cs
+E:\Project\Intern.Microservices\Bank.Account.Service\Bank.Account.Domain\obj\Release\net8.0\Bank.Account.Domain.csproj.CoreCompileInputs.cache
+E:\Project\Intern.Microservices\Bank.Account.Service\Bank.Account.Domain\obj\Release\net8.0\Bank.Account.Domain.dll
+E:\Project\Intern.Microservices\Bank.Account.Service\Bank.Account.Domain\obj\Release\net8.0\refint\Bank.Account.Domain.dll
+E:\Project\Intern.Microservices\Bank.Account.Service\Bank.Account.Domain\obj\Release\net8.0\Bank.Account.Domain.pdb
+E:\Project\Intern.Microservices\Bank.Account.Service\Bank.Account.Domain\obj\Release\net8.0\ref\Bank.Account.Domain.dll

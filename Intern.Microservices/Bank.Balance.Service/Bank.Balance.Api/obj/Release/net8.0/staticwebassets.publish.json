@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5eM2zME2zE0GQiFU2+fLka/svjU6IbHAq1T3cdNH6Z0=",
+  "Source": "Bank.Balance.Api",
+  "BasePath": "_content/Bank.Balance.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

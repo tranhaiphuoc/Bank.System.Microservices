@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Auth.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Auth.Api.Controllers.V1.AuthBankController">
+            <summary>
+            </summary>
+            <response code="500">An error has occured</response>
+        </member>
+        <member name="M:Auth.Api.Controllers.V1.AuthBankController.#ctor(Mediator.ISender)">
+            <summary>
+            </summary>
+            <response code="500">An error has occured</response>
+        </member>
+        <member name="M:Auth.Api.Controllers.V1.AuthBankController.Login(Auth.Api.Contracts.Requests.Bank.BankLoginRequest,System.Threading.CancellationToken)">
+            <summary>
+            Log in.
+            </summary>
+            <returns>Token for authentication</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Auth/Bank/Login
+                Body:
+                {
+                    "username": "000000000001",
+                    "password": "123"
+                }
+            </remarks>
+            <response code="200">Log in successfully</response>
+            <response code="400">Wrong username or password</response>
+        </member>
+        <member name="M:Auth.Api.Controllers.V1.AuthBankController.RefreshToken(Auth.Api.Contracts.Requests.Bank.BankRefreshTokenRequest)">
+            <summary>
+            Refresh an expired JWT token.
+            </summary>
+            <returns>A newly generated JWT token and old refresh token</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Auth/Bank/Refresh
+                Body:
+                {
+                    "accessToken": "&lt;access_token>",
+                    "refreshToken": "&lt;refresh_token>"
+                }
+            </remarks>
+            <response code="200">Generating a new JWT token successfuly</response>
+            <response code="400">Access token has not expired</response>
+            <response code="401">Invalid token</response>
+        </member>
+        <member name="M:Auth.Api.Controllers.V1.AuthBankController.RevokeRefreshToken(Auth.Api.Contracts.Requests.Bank.BankRevokeRefreshTokenRequest,System.Threading.CancellationToken)">
+            <summary>
+            Revoke refresh token of an user
+            </summary>
+            <returns>An error code after revoking a token</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Auth/Bank/Logout
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+            
+                Body:
+                {
+                    "refreshToken": "&lt;refresh_token>"
+                }
+            </remarks>
+            <response code="200">Revoking user's token successfully</response>
+            <response code="401">User has not logged in yet</response>
+        </member>
+    </members>
+</doc>

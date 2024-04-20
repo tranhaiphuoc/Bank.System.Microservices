@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bank.Balance.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Bank.Balance.Api.Controllers.V1.BalancesController">
+            <summary>
+            </summary>
+            <response code="500">A server error has occured</response>
+        </member>
+        <member name="M:Bank.Balance.Api.Controllers.V1.BalancesController.#ctor(Mediator.ISender)">
+            <summary>
+            </summary>
+            <response code="500">A server error has occured</response>
+        </member>
+        <member name="M:Bank.Balance.Api.Controllers.V1.BalancesController.GetBalance(Bank.Balance.Api.Requests.GetBalanceRequest)">
+            <summary>
+            Get balance of an account
+            </summary>
+            <returns>Balance information if possible</returns>
+            <remarks>
+            Sample request:
+            
+                GET /Balances?IdCard=000000000001&amp;AccountNumber=0000000001
+                
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+            </remarks>
+            <response code="200">Success getting account's balance</response>
+            <response code="400">Provided parameters were not valid</response>
+            <response code="404">No balance was found</response>
+        </member>
+        <member name="M:Bank.Balance.Api.Controllers.V1.BalancesController.DepositMoney(Bank.Balance.Api.Requests.DepositMoneyRequest)">
+            <summary>
+            Deposit money to an account
+            </summary>
+            <returns>Corresponded status code</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Balances/Deposit
+                
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+                
+                Body:
+                {
+                    "accountNumber": "0000000001",
+                    "amount": 1000,
+                    "description": "sample description"
+                {
+            </remarks>
+            <response code="200">Deposit successfully</response>
+            <response code="404">No balance was found</response>
+        </member>
+        <member name="M:Bank.Balance.Api.Controllers.V1.BalancesController.HoldAmount(Bank.Balance.Api.Requests.HoldAmountRequest)">
+            <summary>
+            Hold money from usable amount
+            </summary>
+            <returns>Account's balance after holding the money if possible</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Balances/Hold
+                
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+                
+                Body:
+                {
+                    "idCard": "000000000001",
+                    "accountNumber": "0000000001",
+                    "amount": 1000,
+                    "description": "sample description"
+                {
+            </remarks>
+            <response code="200">Hold money successfully</response>
+            <response code="400">Provided parameters were not valid</response>
+            <response code="404">No balance was found</response>
+        </member>
+        <member name="M:Bank.Balance.Api.Controllers.V1.BalancesController.UnholdAmount(Bank.Balance.Api.Requests.UnholdAmountRequest)">
+            <summary>
+            Unhold money from hold amount
+            </summary>
+            <returns>Account's balance after unholding the money if possible</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Balances/Unhold
+                
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+            
+                Body:
+                {
+                    "idCard": "000000000001",
+                    "accountNumber": "0000000001",
+                    "amount": 1000,
+                    "description": "sample description"
+                {
+            </remarks>
+            <response code="200">Unhold money successfully</response>
+            <response code="400">Provided parameters were not valid</response>
+            <response code="404">No balance was found</response>
+        </member>
+        <member name="M:Bank.Balance.Api.Controllers.V1.BalancesController.BuyPayment(Bank.Balance.Api.Requests.BuyPaymentRequest)">
+            <summary>
+            Buy stocks from a securities' account
+            </summary>
+            <returns>Account's balance after the buying process if successful</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Balances/Buy
+                
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+            
+                Body:
+                {
+                    "idCard": "123456789",
+                    "accountNumber": "0983639790",
+                    "securitiesIdCard": "987654321",
+                    "securitiesAccount": "FPT6868686",
+                    "amount": 2000000,
+                    "description": "Thanh toan tien mua 200 ACB ngay 2023-12-29"
+                }
+            </remarks>
+            <response code="200">Successful buy payment process</response>
+            <response code="400">Passed parameters were not valid</response>
+            <response code="404">No account was found</response>
+        </member>
+        <member name="M:Bank.Balance.Api.Controllers.V1.BalancesController.SellPayment(Bank.Balance.Api.Requests.SellPaymentRequest)">
+            <summary>
+            Sell stocks to a securities' account
+            </summary>
+            <returns>Account's balance after the selling process if successful</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Balances/Sell
+                
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+                
+                Body:
+                {
+                    "idCard": "123456789",
+                    "accountNumber": "0983639790",
+                    "securitiesIdCard": "987654321",
+                    "securitiesAccount": "FPT6868686",
+                    "amount": 2000000,
+                    "description": "Nhan tien ban 200 ACB ngay 2023-12-29"
+                }
+            </remarks>
+            <response code="200">Successful sell payment process</response>
+            <response code="400">Passed parameters were not valid</response>
+            <response code="404">No account was found</response>
+        </member>
+    </members>
+</doc>

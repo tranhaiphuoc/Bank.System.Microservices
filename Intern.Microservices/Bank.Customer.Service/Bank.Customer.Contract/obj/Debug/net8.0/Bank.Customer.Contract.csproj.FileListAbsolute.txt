@@ -1,0 +1,11 @@
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Contract\bin\Debug\net8.0\Bank.Customer.Contract.deps.json
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Contract\bin\Debug\net8.0\Bank.Customer.Contract.dll
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Contract\bin\Debug\net8.0\Bank.Customer.Contract.pdb
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Contract\obj\Debug\net8.0\Bank.Customer.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Contract\obj\Debug\net8.0\Bank.Customer.Contract.AssemblyInfoInputs.cache
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Contract\obj\Debug\net8.0\Bank.Customer.Contract.AssemblyInfo.cs
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Contract\obj\Debug\net8.0\Bank.Customer.Contract.csproj.CoreCompileInputs.cache
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Contract\obj\Debug\net8.0\Bank.Customer.Contract.dll
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Contract\obj\Debug\net8.0\refint\Bank.Customer.Contract.dll
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Contract\obj\Debug\net8.0\Bank.Customer.Contract.pdb
+C:\Users\phuocth18\Desktop\Bank.Customer.Service\Bank.Customer.Contract\obj\Debug\net8.0\ref\Bank.Customer.Contract.dll

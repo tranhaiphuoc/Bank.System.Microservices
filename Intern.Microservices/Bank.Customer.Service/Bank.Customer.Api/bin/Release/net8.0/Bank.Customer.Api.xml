@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bank.Customer.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Bank.Customer.Api.Controllers.V1.CustomersController">
+            <summary>
+            </summary>
+            <response code="500">A server error has occured</response>
+        </member>
+        <member name="M:Bank.Customer.Api.Controllers.V1.CustomersController.#ctor(Mediator.ISender)">
+            <summary>
+            </summary>
+            <response code="500">A server error has occured</response>
+        </member>
+        <member name="M:Bank.Customer.Api.Controllers.V1.CustomersController.GetCustomerAccount(Bank.Customer.Api.Requests.GetCustomerAccountRequest)">
+            <summary>
+            Return the information of an account.
+            </summary>
+            <returns>An account has the provided accountNumber and idCard if possible</returns>
+            <remarks>
+            Sample request:
+            
+                GET /Customers?idCard=000000000001&amp;accountNumber=0000000001
+                
+                Header:
+                {
+                    "Authorization": "Bearer &lt;access_token>"
+                }
+            </remarks>
+            <response code="200">Success retrieving the account</response>
+            <response code="400">Provided parameters were not valid</response>
+            <response code="404">No account was found</response>
+        </member>
+        <member name="M:Bank.Customer.Api.Controllers.V1.CustomersController.OpenCustomer(Bank.Customer.Api.Requests.OpenCustomerRequest)">
+            <summary>
+            Open a new customer.
+            </summary>
+            <returns>A response after opening a new customer</returns>
+            <remarks>
+            Sample request:
+            
+                POST /Customers/Open
+                
+                Body:
+                {
+                    "idCard": "000000000001",
+                    "name": "Tran Van A",
+                    "dateOfBirth": "2000-01-01",
+                    "phoneNumber": "090000001",
+                    "address": "Hell",
+                    "idCardDate": "2024-01-16",
+                    "idCardPlace": "Khanh Hoa",
+                    "accountNumber": "0000000001",
+                    "accountType": 1,
+                    "password": "123456"
+                }
+            </remarks>
+            <response code="200">Opened a new customer successfully</response>
+            <response code="400">Provided parameters were not valid</response>
+        </member>
+    </members>
+</doc>

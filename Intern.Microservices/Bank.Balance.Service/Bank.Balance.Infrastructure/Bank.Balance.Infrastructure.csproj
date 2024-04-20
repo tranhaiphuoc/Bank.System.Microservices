@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bank.Customer.Contract" Version="1.0.4" />
+    <PackageReference Include="Bank.Transaction.Contract" Version="1.0.1" />
+    <PackageReference Include="Dapper" Version="2.1.28" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.1" />
+    <PackageReference Include="MySql.Data" Version="8.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bank.Balance.Application\Bank.Balance.Application.csproj" />
+  </ItemGroup>
+
+</Project>
